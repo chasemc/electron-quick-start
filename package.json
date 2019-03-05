@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+        "package-win": "electron-packager . IDBac --overwrite --platform=win32 --arch=x64  --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"IDBac\""
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
